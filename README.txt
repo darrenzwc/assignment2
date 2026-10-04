@@ -1,3 +1,4 @@
+name: Darren Chan
 Setup
 -----
 Install Minikube
@@ -27,7 +28,7 @@ Build container:
 -----------------
 
 # TODO : Requirement 1
-docker build -t <> .
+docker build -t dc49996-assignment2:latest .
 
 
 Deploy application to Minikube:

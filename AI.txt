@@ -1,0 +1,20 @@
+Utilized ChatGPT 5.6 Terra Medium for debugging installation of minikube and Gemini for Documentation search.
+
+Why am I getting this error starting minikube?
+Exiting due to DRV_NOT_HEALTHY: Found driver(s) but none were health
+
+[+] Building 11.4s (1/1) FINISHED                                                                    docker-container:default
+ => ERROR [internal] booting buildkit                                                                                   11.4s
+ => => pulling image moby/buildkit:buildx-stable-1                                                                      11.3s
+[internal] booting buildkit:
+
+ERROR: failed to build: failed to inspect pulled image moby/buildkit:buildx-stable-1: Error response from daemon: 404 page not found
+Sat Oct
+
+Identity added: /home/darre/.minikube/machines/minikube/id_rsa (/home/darre/.minikube/machines/minikube/id_rsa)
+failed to remove default: context builder cannot be removed, run docker context rm default to remove this context
+ERROR: failed to remove one or more builders
+NAME/NODE     DRIVER/ENDPOINT    STATUS     BUILDKIT   PLATFORMS
+default*      docker-container
+ _ default    _ default        inactive
+darre@zedd:~/cloudNative/assignment2$
